@@ -1,0 +1,19 @@
+parameters: {}
+environment: {}
+packages:
+    - name: process
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      actions:
+        - name: html
+          binary: false
+          main: ""
+          runtime: python:3.9
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
